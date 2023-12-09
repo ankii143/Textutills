@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Navbar from "./Components/Navbar";
-import About from "./Components/About";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+// import About from "./Components/About";
+// import { BrowserRouter, Route, Routes } from "react-router-dom";
 import TextForm from "./Components/TextForm";
 import Alert from "./Components/Alert";
 import './index.css';
@@ -42,7 +42,10 @@ export default function App() {
   }
   return (
     <>
- 
+        <Navbar title="TextUtils" about="About us" mode={mode} toggleMode={toggleMode}/>
+        <Alert  alert={alert}/>
+        <TextForm  mode={mode} showAlert={showAlert}/>
+{/*  
     <BrowserRouter>
     <Navbar title="TextUtils" about="About us" mode={mode} toggleMode={toggleMode}/>
     <Alert  alert={alert}/>
@@ -50,7 +53,7 @@ export default function App() {
       <Route  path="/" element={<TextForm  mode={mode} showAlert={showAlert}/>} />
       <Route path="/about" element={<About mode={mode} />} />
     </Routes>
-    </BrowserRouter>
+    </BrowserRouter> */}
    
     </>
   );
