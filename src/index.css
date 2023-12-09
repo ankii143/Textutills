@@ -1,0 +1,6 @@
+.dismisFade{
+    transition: 0.5s ease-in-out;
+}
+.form-control::placeholder{
+    color:white;
+}
