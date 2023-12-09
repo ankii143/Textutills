@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Textutills_Project/static/css/main.deaa487e.css",
+    "main.js": "/Textutills_Project/static/js/main.d87da161.js",
+    "index.html": "/Textutills_Project/index.html",
+    "main.deaa487e.css.map": "/Textutills_Project/static/css/main.deaa487e.css.map",
+    "main.d87da161.js.map": "/Textutills_Project/static/js/main.d87da161.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.deaa487e.css",
+    "static/js/main.d87da161.js"
+  ]
+}
